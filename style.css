@@ -1,0 +1,95 @@
+#MainWindow {
+	background-color: #fff;
+}
+
+QPushButton {
+	font-size: 10pt;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+QPushButton#btnAdd {
+    color: #fff;
+    background-color: #0d6efd;
+}
+QPushButton#btnAdd:hover {
+    background-color: #0055ff;
+}
+QPushButton#btnAdd:pressed {
+    border-color: #98c1fe;
+}
+QPushButton#btnInsert {
+    color: #fff;
+    background-color: #212529;
+}
+QPushButton#btnInsert:hover {
+    background-color: #1c1f23;
+}
+QPushButton#btnInsert:pressed {
+    border-color: #a0a2a4;
+}
+QPushButton#btnRemove {
+    color: #fff;
+    background-color: purple;
+}
+QPushButton#btnRemove:hover {
+    background-color: rgb(210, 6, 210);
+}
+QPushButton#btnRemove:pressed {
+    border-color: rgb(250, 159, 250);
+}
+QPushButton#btnClear {
+    color: #fff;
+    background-color: #dc3545;
+}
+QPushButton#btnClear:hover {
+    background-color: #bb2d3b;
+}
+QPushButton#btnClear:pressed {
+    border-color: #f0a9b0;
+}
+QPushButton#btnSort {
+    color: #000;
+    background-color: #ffc107;
+}
+QPushButton#btnSort:hover {
+    background-color: #ffca2c;
+}
+QPushButton#btnSort:pressed {
+    border-color: #ecd182;
+}
+
+QListWidget {
+    color: #000;
+}
+QListWidget::item {
+    padding: 10px 0;
+}
+QListWidget::item:selected {
+    background-color: rgb(162, 246, 192);
+}
+
+QScrollBar:vertical {
+    border: 0;
+    background-color: #fff;
+    width: 5px;
+    margin: 0;
+}
+QScrollBar::handle:vertical {
+    background-color: #aa00ff;
+    min-height: 0px;
+}
+QScrollBar::add-line:vertical {
+    background-color: #aa00ff;
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    background-color: #aa00ff;
+    height: 0px;
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
